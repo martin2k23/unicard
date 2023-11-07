@@ -3,7 +3,7 @@ import './style.css';
 
 const LandingPage =()=>{
     const [params,setParams] = useState({checkbox:false,input:null})
-    console.log(params?.input.length,"params?.input.length")
+
     return( 
         <div className="background-video">
             <div className="header">
@@ -44,12 +44,13 @@ const LandingPage =()=>{
                                     <div className="form_centre">
                                         <input className="input_container" 
                                             placeholder="Enter Phone Number" 
-                                            type="number"
+                                            type="tel"
                                             value={params?.input} 
+                                            maxlength="10"
                                             onChange={(e)=>{setParams((prev)=>({...prev,input:e?.target?.value}))}}
                                         />
                                         {params?.input ?  
-                                            params?.input.length !== 10 ?
+                                            params?.input?.length !== 10 ?
                                                 <span>
                                                     <button type="button" className="cross_btn">
                                                         <svg width="14" height="15" fill="none" xmlns="http://www.w3.org/2000/svg">
