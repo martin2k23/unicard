@@ -15,7 +15,7 @@ const Footer = ({ setParams=()=>{}, params , isVisible,setIsVisible=()=>{} }) =>
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [setIsVisible]);
   return (
    <footer className={`fixed-footer ${isVisible ? 'visible' : ''}`}>
         <div className='footer_show'>

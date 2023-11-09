@@ -37,3 +37,16 @@
   }
 }
 
+.body_container{
+  padding: 0rem 1rem;
+  max-width: 80rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
