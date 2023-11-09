@@ -1,0 +1,33 @@
+.animated-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 5s ease, transform 5s ease;
+  font-size: 24px; 
+  color: #333; 
+  font-weight: bold; 
+  text-align: center; 
+  margin: 20px; 
+}
+
+.animated-text.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.text_style{
+  font-size: 40px;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 4rem;
+  font-weight: 500;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.span_value{
+  font-weight: 400!important;
+  color: #9ea7ae;
+}
+.container{
+  padding: 150px 0px;
+}
