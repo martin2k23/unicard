@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import Footer from './Footer';
+import FooterBar from './FooterBar';
 import LandingPage from './LandingPage';
 import ScrollTextAnimation from './ScrollText';
 import Parts from './Parts';
 import DataValidation from './DataValidation';
+import Downloads from './Downloads';
+import Footer from './Footer';
 
 function App() {
   const [params,setParams] = useState({checkbox:false,input:null})
@@ -78,8 +80,43 @@ function App() {
       </section>
 
       <DataValidation/>
-   
-      <Footer setParams={setParams} params={params} setIsVisible={setIsVisible} isVisible={isVisible}/>
+
+      <section className='section_black'>
+        <div className='div_style_value'>
+          <p className="p_tag_div">
+            <span>At Uni, we’re committed to &nbsp;  
+              <span  className="color_show"> 
+                delivering an unmatched credit <br/> experience 
+              </span> for millions of Indians. 
+            </span>
+          </p>
+
+          <p className="per_value">
+            On this mission, we’ve partnered with some of <br/> the best in the business.
+          </p>
+
+          <div className="imag_lazy">
+              <img src="https://www.uni.cards/images/pcidss_cert.svg" alt="sbm bank"/>
+          </div>
+        </div>
+      </section>
+
+      <div className='text_last_parts'>
+          <p>
+            Please note that to stay compliant with RBI guidelines, we have <br/> discontinued Pay 1/3rd and Pay 1/2 cards for the time being.
+          </p>
+      </div>
+
+      <Downloads/>
+
+      <div className="promotions">
+        <p>Uni maintains the highest level of security standards</p>
+        <img src="https://www.uni.cards/images/pcidss_cert.svg" alt="" loading="lazy" className="img_per"/>
+      </div>
+
+      <Footer/>
+
+      <FooterBar setParams={setParams} params={params} setIsVisible={setIsVisible} isVisible={isVisible}/>
     </div>
   );
 }

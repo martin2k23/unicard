@@ -1,0 +1,56 @@
+.section_downloads{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(158deg,#5ad6c4,#fdef78);
+    background-size: cover;
+}
+.download_con{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    max-width: 80rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.download_text{
+    font-size: 42px;
+    margin-bottom: 0;
+    line-height: 1.25;
+    font-weight: 500;
+}
+.flex_download{
+    display: flex;
+}
+.links_download{
+    line-height: 3rem;
+    font-size: 1.125rem;
+    width: 14rem;
+    height: 60px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0.75rem;
+    margin-right: 10px;
+    text-decoration: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.download_icon{
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    line-height: 1em;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    color: currentColor;
+    vertical-align: middle;
+    margin-right:  0.5rem;;
+}
