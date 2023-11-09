@@ -28,9 +28,6 @@
   font-weight: 400!important;
   color: #9ea7ae;
 }
-.container{
-  padding: 150px 0px;
-}
 
 .animate_p{
     animation: slideIn 2s ease

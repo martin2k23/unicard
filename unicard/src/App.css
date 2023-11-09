@@ -37,6 +37,10 @@
   }
 }
 
+.container{
+  padding: 150px 0px;
+}
+
 .body_container{
   padding: 0rem 1rem;
   max-width: 80rem;
@@ -49,4 +53,102 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.lifetime_text{
+  line-height: 1.2;
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 500;
+  display: flex;
+  margin-top: 10rem;
+}
+.green{
+  --text-opacity: 1;
+  color: rgba(90,214,196,var(--text-opacity));
+}
+.fee_text{
+  text-align: center;
+  display: inline-block;
+}
+.text_last{
+  text-align: center;
+  display: block;
+}
+.section_main{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(0,0,0,var(--tw-bg-opacity));
+  position: relative;
+}
+.img_circle{
+  width: 70%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  img{
+    max-width: 100%;
+    display: block;
+    border-style: none;
+  }
+}
+.main_div{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  max-width: 80rem;
+  width: 100%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_text_div{
+  flex-grow: 0;
+  flex: 50%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.p_tag_div{
+  font-size: 40px;
+  --tw-text-opacity: 1;
+  color: rgba(255,255,255,var(--tw-text-opacity));
+  line-height: 1.2;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.per_value{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgba(191,201,204,var(--tw-text-opacity));
+}
+.imag_lazy{
+  flex: 50%;
+  width: 450px;
+  height: auto;
+  margin: auto;
+}
+.img_show{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  img{
+    max-width: 100%;
+    display: block;
+    border-style: none;
+  }
+}
+.color_show{
+  background: linear-gradient(90deg,#8fffef 25%,#f9f490);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
